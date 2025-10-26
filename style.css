@@ -3,7 +3,7 @@
 
 /* --- :root Variables (Easy to change theme) --- */
 :root {
-    --bs-primary: #008080;
+    --bs-primary: #1F398D;
     /* Teal - Modern Tech Color */
     --bs-primary-rgb: 0, 128, 128;
     --bs-dark: #212529;
@@ -81,7 +81,7 @@ html {
 
 /* --- Buttons --- */
 .btn {
-    border-radius: 50px;
+    border-radius: 10px;
     /* Pill-shaped buttons */
     padding: 0.75rem 1.5rem;
     font-weight: 600;
@@ -94,9 +94,9 @@ html {
 }
 
 .btn-primary:hover {
-    background-color: #006666;
+    background-color: #1F398D;
     /* Darker teal */
-    border-color: #006666;
+    border-color: #1F398D;
     transform: translateY(-3px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
