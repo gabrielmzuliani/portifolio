@@ -19,6 +19,7 @@ body {
     padding-top: 0;
     /* Removed padding, as navbar is transparent at top */
     background-color: var(--bs-body-bg);
+    text-align: justify;
 }
 
 h1,
@@ -95,7 +96,7 @@ html {
     }
 }
 
-/* --- Buttons --- */
+/* ========== Buttons ========== */
 .btn {
     border-radius: 10px;
     /* Pill-shaped buttons */
@@ -129,7 +130,7 @@ html {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* --- Home Section --- */
+/* ========= Home Section ========== */
 #home {
     background-color: var(--bs-light);
     min-height: 100vh;
@@ -150,7 +151,20 @@ html {
     /* Softer, larger shadow */
 }
 
-/* --- Skills Section --- */
+/* ---- Badge "Analista de Dados" ---- */
+.bi-stars {
+  display: inline-block;
+  background-color: #DDE9FD !important;
+  color: var(--bs-icon-color) !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 6px 14px;
+  border-radius: 30px;
+  box-shadow: 0 2px 8px rgba(0, 58, 255, 0.1) !important;
+  transition: all 0.3s ease;
+}
+
+/* ========== Skills Section ========== */
 #skills {
     padding: 100px 0;
 }
@@ -225,6 +239,30 @@ html {
 .project-card .card-img-top {
     height: 220px;
     object-fit: cover;
+}
+
+.project-card .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-card .tools-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.tools-bt {
+    background: #DDE9FD;
+    color: var(--bs-icon-color);
+    font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
 /*========== CONTATO ==========*/
